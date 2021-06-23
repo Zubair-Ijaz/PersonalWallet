@@ -38,4 +38,7 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:20.0.0'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+    implementation 'com.google.firebase:firebase-database-ktx'
 }
